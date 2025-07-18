@@ -1,7 +1,3 @@
-## Usage
-These IOCs can be integrated into your threat detection tools such as SIEMs, EDRs, or TIPs to improve detection and correlation of malicious activities. Always validate and enrich these indicators with internal threat intel tools or sandbox environments.
-
-
 IOC,Type,
 sekoia.io,Domain,
 https://backupaccount.net/url/news,URL,
