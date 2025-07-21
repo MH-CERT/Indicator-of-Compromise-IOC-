@@ -1,0 +1,18 @@
+# 2025-07-21 Microsoft SharePoint ToolShell - CVE-2025-53770
+
+### Atomic
+
+- 107[.]191[.]58[.]76
+- 104[.]238[.]159[.]149
+- 96[.]9[.]125[.]147
+- 103[.]186[.]30[.]186
+
+### Computed
+
+- 92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514, web shell (cleartext)
+- 27c45b8ed7b8a7e5fff473b50c24028bd028a9fe8e25e5cea2bf5e676e531014, web shell (cleartext)
+- 8d3d3f3a17d233bc8562765e61f7314ca7a08130ac0fb153ffd091612920b0f2, web shell (compiled)
+- 30955794792a7ce045660bb1e1917eef36f1d5865891b8110bf982382b305b27, PowerShell payload
+- 4a02a72aedc3356d8cb38f01f0e0b9f26ddc5ccb7c0f04a561337cf24aa84030, PaloAlto detected .NET payload
+- b39c14becb62aeb55df7fd55c814afbb0d659687d947d917512fe67973100b70, PaloAlto detected .NET payload
+- fa3a74a6c015c801f5341c02be2cbdfb301c6ed60633d49fc0bc723617741af7, PaloAlto detected .NET payload
