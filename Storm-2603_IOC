@@ -1,52 +1,52 @@
-Indicator,Type,Description
-92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514,SHA-256,spinstall0.aspx - Storm-2603 primary web shell backdoor
-f711b14efb7792033b7ac954ebcfaec8141eb0abafef9c17e769ff96e8fecdf3,SHA-256,Storm-2603 MSI installer deploying both Warlock & LockBit Black ransomware
-035998b724044d20d583fffa393907c7fef11ad8b93b4d423ad8cb8e53f248b7,SHA-256,Storm-2603 secondary MSI installer for dual ransomware deployment
-abb0fa128d3a75e69b59fe0391c1158eb84a799ddb0abc55d2d6be3511ef0ea1,SHA-256,Warlock ransomware payload (X2anylock variant)
-3b013d5aec75bf8aab2423d0f56605c3860a8fbd4f343089a9a8813b15ecc550,SHA-256,Warlock ransomware deployment component
-1eb914c09c873f0a7bcf81475ab0f6bdfaccc6b63bf7e5f2dbf19295106af192,SHA-256,LockBit Black ransomware payload deployed by Storm-2603
-4c1750a14915bf2c0b093c2cb59063912dfa039a2adfe6d26d6914804e2ae928,SHA-256,LockBit Black ransomware component
-83705c75731e1d590b08f9357bc3b0f04741e92a033618736387512b40dab060,SHA-256,LockBit Black ransomware component
-f54ae00a9bae73da001c4d3d690d26ddf5e8e006b5562f936df472ec5e299441,SHA-256,Warlock ransomware component
-b180ab0a5845ed619939154f67526d2b04d28713fcc1904fbd666275538f431d,SHA-256,Warlock ransomware component
-24480dbe306597da1ba393b6e30d542673066f98826cc07ac4b9033137f37dbf,SHA-256,dnsclient.exe - AK47DNS backdoor (Storm2603 custom malware)
-b5a78616f709859a0d9f830d28ff2f9dbbb2387df1753739407917e96dadf6b0,SHA-256,AK47HTTP backdoor component (Storm-2603 custom malware)
-c27b725ff66fdfb11dd6487a3815d1d1eba89d61b0e919e4d06ed3ac6a74fe94,SHA-256,AK47 C2 framework component
-d6da885c90a5d1fb88d0a3f0b5d9817a82d5772d5510a0773c80ca581ce2486d,SHA-256,AK47 C2 framework component
-0f4b0d65468fe3e5c8fb4bb07ed75d4762e722a60136e377bdad7ef06d9d7c22,SHA-256,AK47 C2 framework component
-8f58da414ec4cdad2f6ac86c19e0a806886c63cfdf1fbbb5a0713dce8a 0164c5,SHA-256,AK47 C2 framework component
-update.updatemicfosoft[.]com,Domain,Storm-2603 primary C2 domain for DNS backdoor (active since March 2025)
-update.micfosoft[.]com,Domain,Storm-2603 HTTP C2 domain
-update.micfosoft[.]com,Domain,Storm-2603 alternative C2 domain
-microsfot[.]org	Domain,Storm-2603,typo-squatted C2 domain
-c34718cbb4c6.ngrok-free[.]app,Domain,Storm-2603 Ngrok tunnel for PowerShell delivery
-65.38.121.198,IPv4,Storm-2603 C2 infrastructure server
-131.226.2.6,IPv4,Storm-2603 post-exploitation C2 server
-134.199.202.205,IPv4,Storm-2603 SharePoint exploitation source
-104.238.159.149,IPv4,Storm-2603 SharePoint exploitation source
-188.130.206.168,IPv4,Storm-2603 SharePoint exploitation source
-c34718cbb4c6.ngrokfree[.]app/file.ps1,URL,Storm-2603 PowerShell payload delivery URL
-/_layouts/15/ToolPane.aspx?Disp layMode=Edit,URL,SharePoint exploitation endpoint targeted by Storm-2603
-spinstall0.aspx,Filename,Storm-2603 primary web shell
-spinstall.aspx,Filename,Storm-2603 web shell variant
-spinstall1.aspx,Filename,Storm-2603 web shell variant
-spinstall2.aspx,Filename,Storm-2603 web shell variant
-debug_dev.js,Filename,Storm-2603 file for storing stolen MachineKeys
-dnsclient.exe,Filename,Storm-2603 AK47DNS backdoor
-VMToolsEng.exe,Filename,Storm-2603 Antivirus Terminator tool
-ServiceMouse.sys,Filename,Storm-2603 BYOVD driver (renamed Antiy driver)
-7z.dll,Filename,Malicious DLL sideloaded for Warlock deployment
-clink_dll_x86.dll,Filename,Malicious DLL sideloaded for LockBit Black deployment
-bbb.msi,Filename,Storm-2603 ransomware deployment MSI
-Evidencia.rar,Filename,Storm-2603 tool archive (found on VirusTotal)
-How to decrypt my data.log,Filename,Warlock ransomware note
-How to decrypt my data.txt,Filename,X2anylock ransomware note
-ServiceMouse,ServiceName,Windows service created by Storm-2603 Antivirus Terminator
-VHBD@H,Encryption Key,XOR key used by Storm-2603's AK47 C2
-.x2anylock,File Extension,Used by Warlock ransomware for encrypted files
-\TEMPLATE\LAYOUTS\spinstall*.aspx,File Path Pattern,Web shell deployment location pattern
-\TEMPLATE\LAYOUTS\debug_dev.js,File Path Pattern,JavaScript file storing stolen MachineKeys
-*[.]devtunnels.ms,Domain Pattern,Abused Microsoft DevTunnels domain for staging/C2
-<task result><sessionID>.a<sessionID>.<computerName>.update.updatemicfosoft[.]com,DNS Pattern,C2 communication DNS format used by Storm-2603
-cmd.exe/c*2>&1,Command Pattern,Command execution format used by AK47 C2
-w3wp.exe spawning PowerShell with -EncodedComman,ProcessPattern,Storm-2603 web shell execution pattern
+Indicator,Type,Description,
+92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514,SHA-256,spinstall0.aspx - Storm-2603 primary web shell backdoor,
+f711b14efb7792033b7ac954ebcfaec8141eb0abafef9c17e769ff96e8fecdf3,SHA-256,Storm-2603 MSI installer deploying both Warlock & LockBit Black ransomware,
+035998b724044d20d583fffa393907c7fef11ad8b93b4d423ad8cb8e53f248b7,SHA-256,Storm-2603 secondary MSI installer for dual ransomware deployment,
+abb0fa128d3a75e69b59fe0391c1158eb84a799ddb0abc55d2d6be3511ef0ea1,SHA-256,Warlock ransomware payload (X2anylock variant),
+3b013d5aec75bf8aab2423d0f56605c3860a8fbd4f343089a9a8813b15ecc550,SHA-256,Warlock ransomware deployment component,
+1eb914c09c873f0a7bcf81475ab0f6bdfaccc6b63bf7e5f2dbf19295106af192,SHA-256,LockBit Black ransomware payload deployed by Storm-2603,
+4c1750a14915bf2c0b093c2cb59063912dfa039a2adfe6d26d6914804e2ae928,SHA-256,LockBit Black ransomware component,
+83705c75731e1d590b08f9357bc3b0f04741e92a033618736387512b40dab060,SHA-256,LockBit Black ransomware component,
+f54ae00a9bae73da001c4d3d690d26ddf5e8e006b5562f936df472ec5e299441,SHA-256,Warlock ransomware component,
+b180ab0a5845ed619939154f67526d2b04d28713fcc1904fbd666275538f431d,SHA-256,Warlock ransomware component,
+24480dbe306597da1ba393b6e30d542673066f98826cc07ac4b9033137f37dbf,SHA-256,dnsclient.exe - AK47DNS backdoor (Storm2603 custom malware),
+b5a78616f709859a0d9f830d28ff2f9dbbb2387df1753739407917e96dadf6b0,SHA-256,AK47HTTP backdoor component (Storm-2603 custom malware),
+c27b725ff66fdfb11dd6487a3815d1d1eba89d61b0e919e4d06ed3ac6a74fe94,SHA-256,AK47 C2 framework component,
+d6da885c90a5d1fb88d0a3f0b5d9817a82d5772d5510a0773c80ca581ce2486d,SHA-256,AK47 C2 framework component,
+0f4b0d65468fe3e5c8fb4bb07ed75d4762e722a60136e377bdad7ef06d9d7c22,SHA-256,AK47 C2 framework component,
+8f58da414ec4cdad2f6ac86c19e0a806886c63cfdf1fbbb5a0713dce8a 0164c5,SHA-256,AK47 C2 framework component,
+update.updatemicfosoft[.]com,Domain,Storm-2603 primary C2 domain for DNS backdoor (active since March 2025),
+update.micfosoft[.]com,Domain,Storm-2603 HTTP C2 domain,
+update.micfosoft[.]com,Domain,Storm-2603 alternative C2 domain,
+microsfot[.]org	Domain,Storm-2603,typo-squatted C2 domain,
+c34718cbb4c6.ngrok-free[.]app,Domain,Storm-2603 Ngrok tunnel for PowerShell delivery,
+65.38.121.198,IPv4,Storm-2603 C2 infrastructure server,
+131.226.2.6,IPv4,Storm-2603 post-exploitation C2 server,
+134.199.202.205,IPv4,Storm-2603 SharePoint exploitation source,
+104.238.159.149,IPv4,Storm-2603 SharePoint exploitation source,
+188.130.206.168,IPv4,Storm-2603 SharePoint exploitation source,
+c34718cbb4c6.ngrokfree[.]app/file.ps1,URL,Storm-2603 PowerShell payload delivery URL,
+/_layouts/15/ToolPane.aspx?Disp layMode=Edit,URL,SharePoint exploitation endpoint targeted by Storm-2603,
+spinstall0.aspx,Filename,Storm-2603 primary web shell,
+spinstall.aspx,Filename,Storm-2603 web shell variant,
+spinstall1.aspx,Filename,Storm-2603 web shell variant,
+spinstall2.aspx,Filename,Storm-2603 web shell variant,
+debug_dev.js,Filename,Storm-2603 file for storing stolen MachineKeys,
+dnsclient.exe,Filename,Storm-2603 AK47DNS backdoor,
+VMToolsEng.exe,Filename,Storm-2603 Antivirus Terminator tool,
+ServiceMouse.sys,Filename,Storm-2603 BYOVD driver (renamed Antiy driver),
+7z.dll,Filename,Malicious DLL sideloaded for Warlock deployment,
+clink_dll_x86.dll,Filename,Malicious DLL sideloaded for LockBit Black deployment,
+bbb.msi,Filename,Storm-2603 ransomware deployment MSI,
+Evidencia.rar,Filename,Storm-2603 tool archive (found on VirusTotal),
+How to decrypt my data.log,Filename,Warlock ransomware note,
+How to decrypt my data.txt,Filename,X2anylock ransomware note,
+ServiceMouse,ServiceName,Windows service created by Storm-2603 Antivirus Terminator,
+VHBD@H,Encryption Key,XOR key used by Storm-2603's AK47 C2,
+.x2anylock,File Extension,Used by Warlock ransomware for encrypted files,
+\TEMPLATE\LAYOUTS\spinstall*.aspx,File Path Pattern,Web shell deployment location pattern,
+\TEMPLATE\LAYOUTS\debug_dev.js,File Path Pattern,JavaScript file storing stolen MachineKeys,
+*[.]devtunnels.ms,Domain Pattern,Abused Microsoft DevTunnels domain for staging/C2.
+<task result><sessionID>.a<sessionID>.<computerName>.update.updatemicfosoft[.]com,DNS Pattern,C2 communication DNS format used by Storm-2603,
+cmd.exe/c*2>&1,Command Pattern,Command execution format used by AK47 C2,
+w3wp.exe spawning PowerShell with -EncodedComman,ProcessPattern,Storm-2603 web shell execution pattern,
