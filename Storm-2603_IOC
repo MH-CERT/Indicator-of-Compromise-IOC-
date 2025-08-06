@@ -1,43 +1,52 @@
-IOC,Type,
-188.130.206.168,IPv4
-134.199.202.205,IPv4
-131.226.2.6,IPv4
-65.38.121.198,IPv4
-104.238.159.149,IPv4
-updatemicfosoft.com,Domain
-microsfot.org,Domain
-f711b14efb7792033b7ac954ebcfaec8141eb0abafef9c17e769ff96e8fecdf3,Hash
-035998b724044d20d583fffa393907c7fef11ad8b93b4d423ad8cb8e53f248b7,Hash
-abb0fa128d3a75e69b59fe0391c1158eb84a799ddb0abc55d2d6be3511ef0ea1,Hash
-3b013d5aec75bf8aab2423d0f56605c3860a8fbd4f343089a9a8813b15ecc550,Hash
-dbf5ee8d232ebce4cd25c0574d3a1ab3aa7c9caf9709047a6790e94d810377de,Hash
-1eb914c09c873f0a7bcf81475ab0f6bdfaccc6b63bf7e5f2dbf19295106af192,Hash
-d6da885c90a5d1fb88d0a3f0b5d9817a82d5772d5510a0773c80ca581ce2486d,Hash
-0f4b0d65468fe3e5c8fb4bb07ed75d4762e722a60136e377bdad7ef06d9d7c22,Hash
-f01675f9ca00da067bdb1812bf829f09ccf5658b87d3326d6fddd773df352574,Hash
-8f58da414ec4cdad2f6ac86c19e0a806886c63cfdf1fbbb5a0713dce8a0164c5,Hash
-aa25646ea17ae33285203c225386304de1fe4155be44bb86deb154b87b47e3fb,Hash
-b5a78616f709859a0d9f830d28ff2f9dbbb2387df1753739407917e96dadf6b0,Hash
-c27b725ff66fdfb11dd6487a3815d1d1eba89d61b0e919e4d06ed3ac6a74fe94,Hash
-eaec6b1b23c4450d1d0a7d409d3f21e8a4a171a9e9b82bb8ef2c05a2f7435e9c,Hash
-257fed1516ae5fe1b63eae55389e8464f47172154297496e6f4ef13c19a26505,Hash
-ceec1a2df81905f68c7ebe986e378fec0805aebdc13de09a4033be48ba66da8b,Hash
-55a246576af6f6212c26ef78be5dd8f83e78dd45aea97bb505d8cee1aeef6f17,Hash
-aca888bbb300f75d69dd56bc22f87d0ed4e0f6b8ed5421ef26fc3523980b64ad,Hash
-f06fe1c3e882092a23002bed3e170da7b64e6b4475acdedea1433a874b10afdf,Hash
-7c31d43b30bda3a891f0332ee5b1cf610cdc9ecf772cea9b073ac905d886990d,Hash
-ffbc9dfc284b147e07a430fe9471e66c716a84a1f18976474a54bee82605fa9a,Hash
-f54ae00a9bae73da001c4d3d690d26ddf5e8e006b5562f936df472ec5e299441,Hash
-c2c1fec7856e8d49f5d49267e69993837575dbbec99cd702c5be134a85b2c139,Hash
-b180ab0a5845ed619939154f67526d2b04d28713fcc1904fbd666275538f431d,Hash
-83705c75731e1d590b08f9357bc3b0f04741e92a033618736387512b40dab060,Hash
-7ae971e40528d364fa52f3bb5e0660ac25ef63e082e3bbd54f153e27b31eae68,Hash
-6f6db63ece791c6dc1054f1e1231b5bbcf6c051a49bad0784569271753e24619,Hash
-6b273c2179518dacb1218201fd37ee2492a5e1713be907e69bf7ea56ceca53a5,Hash
-6753b840cec65dfba0d7d326ec768bff2495784c60db6a139f51c5e83349ac4d,Hash
-62881359e75c9e8899c4bc9f452ef9743e68ce467f8b3e4398bebacde9550dea,Hash
-567cb8e8c8bd0d909870c656b292b57bcb24eb55a8582b884e0a228e298e7443,Hash
-4c1750a14915bf2c0b093c2cb59063912dfa039a2adfe6d26d6914804e2ae928,Hash
-445a37279d3a229ed18513e85f0c8d861c6f560e0f914a5869df14a74b679b86,Hash
-24480dbe306597da1ba393b6e30d542673066f98826cc07ac4b9033137f37dbf,Hash
-92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514,Hash
+Indicator,Type,Description
+92bb4ddb98eeaf11fc15bb32e71d0a 63256a0ed826a03ba293ce3a8bf057a514,SHA-256,spinstall0.aspx - Storm-2603 primary web shell backdoor
+f711b14efb7792033b7ac954ebcfae c8141eb0abafef9c17e769ff96e8fecdf3,SHA-256,Storm-2603 MSI installer deploying both Warlock & LockBit Black ransomware
+035998b724044d20d583fffa39390 7c7fef11ad8b93b4d423ad8cb8e53f248b7,SHA-256,Storm-2603 secondary MSI installer for dual ransomware deployment
+abb0fa128d3a75e69b59fe0391c115 8eb84a799ddb0abc55d2d6be3511ef0ea1,SHA-256,Warlock ransomware payload (X2anylock variant)
+3b013d5aec75bf8aab2423d0f566 05c3860a8fbd4f343089a9a8813b15ecc550,SHA-256,Warlock ransomware deployment component
+1eb914c09c873f0a7bcf81475ab0f6 bdfaccc6b63bf7e5f2dbf19295106af192,SHA-256,LockBit Black ransomware payload deployed by Storm-2603
+4c1750a14915bf2c0b093c2cb5906 3912dfa039a2adfe6d26d6914804e2ae928,SHA-256,LockBit Black ransomware component
+83705c75731e1d590b08f9357bc3b 0f04741e92a033618736387512b40dab060,SHA-256,LockBit Black ransomware component
+f54ae00a9bae73da001c4d3d690d 26ddf5e8e006b5562f936df472ec5e299441,SHA-256,Warlock ransomware component
+b180ab0a5845ed619939154f67526 d2b04d28713fcc1904fbd666275538f431d,SHA-256,Warlock ransomware component
+24480dbe306597da1ba393b6e30 d542673066f98826cc07ac4b9033137f37dbf,SHA-256,dnsclient.exe - AK47DNS backdoor (Storm2603 custom malware)
+b5a78616f709859a0d9f830d28ff2f 9dbbb2387df1753739407917e96dadf6b0,SHA-256,AK47HTTP backdoor component (Storm-2603 custom malware)
+c27b725ff66fdfb11dd6487a3815d1d1eba89d61b0e919e4d06ed3ac6a74fe94,SHA-256,AK47 C2 framework component
+d6da885c90a5d1fb88d0a3f0b5d9817a82d5772d5510a0773c80ca581ce2486d,SHA-256,AK47 C2 framework component
+0f4b0d65468fe3e5c8fb4bb07ed7 5d4762e722a60136e377bdad7ef06d9d7c22,SHA-256,AK47 C2 framework component
+8f58da414ec4cdad2f6ac86c19e0a 806886c63cfdf1fbbb5a0713dce8a 0164c5,SHA-256,AK47 C2 framework component
+update.updatemicfosoft[.]com,Domain,Storm-2603 primary C2 domain for DNS backdoor (active since March 2025)
+update.micfosoft[.]com,Domain,Storm-2603 HTTP C2 domain
+update.micfosoft[.]com,Domain,Storm-2603 alternative C2 domain
+microsfot[.]org	Domain,Storm-2603,typo-squatted C2 domain
+c34718cbb4c6.ngrok-free[.]app,Domain,Storm-2603 Ngrok tunnel for PowerShell delivery
+65.38.121.198,IPv4,Storm-2603 C2 infrastructure server
+131.226.2.6,IPv4,Storm-2603 post-exploitation C2 server
+134.199.202.205,IPv4,Storm-2603 SharePoint exploitation source
+104.238.159.149,IPv4,Storm-2603 SharePoint exploitation source
+188.130.206.168,IPv4,Storm-2603 SharePoint exploitation source
+c34718cbb4c6.ngrokfree[.]app/file.ps1,URL,Storm-2603 PowerShell payload delivery URL
+/_layouts/15/ToolPane.aspx?Disp layMode=Edit,URL,SharePoint exploitation endpoint targeted by Storm-2603
+spinstall0.aspx,Filename,Storm-2603 primary web shell
+spinstall.aspx,Filename,Storm-2603 web shell variant
+spinstall1.aspx,Filename,Storm-2603 web shell variant
+spinstall2.aspx,Filename,Storm-2603 web shell variant
+debug_dev.js,Filename,Storm-2603 file for storing stolen MachineKeys
+dnsclient.exe,Filename,Storm-2603 AK47DNS backdoor
+VMToolsEng.exe,Filename,Storm-2603 Antivirus Terminator tool
+ServiceMouse.sys,Filename,Storm-2603 BYOVD driver (renamed Antiy driver)
+7z.dll,Filename,Malicious DLL sideloaded for Warlock deployment
+clink_dll_x86.dll,Filename,Malicious DLL sideloaded for LockBit Black deployment
+bbb.msi,Filename,Storm-2603 ransomware deployment MSI
+Evidencia.rar,Filename,Storm-2603 tool archive (found on VirusTotal)
+How to decrypt my data.log,Filename,Warlock ransomware note
+How to decrypt my data.txt,Filename,X2anylock ransomware note
+ServiceMouse,ServiceName,Windows service created by Storm-2603 Antivirus Terminator
+VHBD@H,Encryption Key,XOR key used by Storm-2603's AK47 C2
+.x2anylock,File Extension,Used by Warlock ransomware for encrypted files
+\TEMPLATE\LAYOUTS\spinstall*.aspx,File Path Pattern,Web shell deployment location pattern
+\TEMPLATE\LAYOUTS\debug_dev.js,File Path Pattern,JavaScript file storing stolen MachineKeys
+*[.]devtunnels.ms,Domain Pattern,Abused Microsoft DevTunnels domain for staging/C2
+<task result><sessionID>.a<sessionID>.<computerName>.update.updatemicfosoft[.]com,DNS Pattern,C2 communication DNS format used by Storm-2603
+cmd.exe/c*2>&1,Command Pattern,Command execution format used by AK47 C2
+w3wp.exe spawning PowerShell with -EncodedComman,ProcessPattern,Storm-2603 web shell execution pattern
